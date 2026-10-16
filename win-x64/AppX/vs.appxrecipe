@@ -8,23 +8,38 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
+<<<<<<< HEAD
     <PackageIdentityName>251aa6e7-7c7e-4cb9-9800-85d5195335f7</PackageIdentityName>
     <PackageIdentityPublisher>CN=egork</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\egork\source\repos\CertificateManager\CertificateManager\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+=======
+    <PackageIdentityName>3b1af517-5e53-4037-8146-373109acb91d</PackageIdentityName>
+    <PackageIdentityPublisher>CN=egork</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\</IntermediateOutputPath>
+>>>>>>> a6a6ea504803752c24bf320b746df575150fc974
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+<<<<<<< HEAD
     <LayoutDir>C:\Users\egork\source\repos\CertificateManager\CertificateManager\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>43A8612EADAD90F7B3C608477397C4698A6D3B08C4C77007F95B4576E9419ADA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>251aa6e7-7c7e-4cb9-9800-85d5195335f7_1.0.0.0_x64__txqdr8z7gk3ce</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>251aa6e7-7c7e-4cb9-9800-85d5195335f7_txqdr8z7gk3ce!App</RegisteredUserModeAppID>
     <RegisteredPackageID>251aa6e7-7c7e-4cb9-9800-85d5195335f7</RegisteredPackageID>
+=======
+    <LayoutDir>C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>0C95399CE3AEDC329195AAFA845D9ED531E18D09A752FFE148BADA9CFC2FE2D8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3b1af517-5e53-4037-8146-373109acb91d_1.0.0.0_x64__txqdr8z7gk3ce</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3b1af517-5e53-4037-8146-373109acb91d_txqdr8z7gk3ce!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3b1af517-5e53-4037-8146-373109acb91d</RegisteredPackageID>
+>>>>>>> a6a6ea504803752c24bf320b746df575150fc974
     <RegisteredPackagePublisher>CN=egork</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <AppXManifest Include="C:\Users\egork\source\repos\CertificateManager\CertificateManager\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -43,6 +58,26 @@
     <AppxPackagedFile Include="C:\Users\egork\source\repos\CertificateManager\CertificateManager\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CertificateManager.dll">
       <PackagePath>CertificateManager.dll</PackagePath>
       <Modified>2026-09-20T05:21:13.164</Modified>
+=======
+    <AppXManifest Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2026-09-20T13:01:23.044</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NewModernEventViewer.runtimeconfig.json">
+      <PackagePath>NewModernEventViewer.runtimeconfig.json</PackagePath>
+      <Modified>2026-09-20T12:51:00.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\apphost.exe">
+      <PackagePath>NewModernEventViewer.exe</PackagePath>
+      <Modified>2026-09-20T13:01:21.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NewModernEventViewer.dll">
+      <PackagePath>NewModernEventViewer.dll</PackagePath>
+      <Modified>2026-09-20T13:01:21.138</Modified>
+>>>>>>> a6a6ea504803752c24bf320b746df575150fc974
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.netcore.app.runtime.win-x64\8.0.31\runtimes\win-x64\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -780,6 +815,7 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2024-11-11T17:23:04.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windows.ai.machinelearning\2.1.74\lib\net8.0-windows10.0.17763.0\Microsoft.ML.OnnxRuntime.dll">
       <PackagePath>Microsoft.ML.OnnxRuntime.dll</PackagePath>
       <Modified>2026-07-09T17:39:38.000</Modified>
@@ -907,15 +943,140 @@
     <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.winui\2.3.9\lib\net6.0-windows10.0.17763.0\Microsoft.WinUI.dll">
       <PackagePath>Microsoft.WinUI.dll</PackagePath>
       <Modified>2026-09-01T11:12:34.000</Modified>
+=======
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.ai\1.8.37\lib\net6.0-windows10.0.17763.0\Microsoft.Graphics.Imaging.Projection.dll">
+      <PackagePath>Microsoft.Graphics.Imaging.Projection.dll</PackagePath>
+      <Modified>2025-09-08T00:27:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.ai\1.8.37\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.ContentSafety.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.ContentSafety.Projection.dll</PackagePath>
+      <Modified>2025-09-08T00:27:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.ai\1.8.37\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Foundation.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.Foundation.Projection.dll</PackagePath>
+      <Modified>2025-09-08T00:27:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.ai\1.8.37\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Imaging.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.Imaging.Projection.dll</PackagePath>
+      <Modified>2025-09-08T00:27:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.ai\1.8.37\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.Projection.dll</PackagePath>
+      <Modified>2025-09-08T00:27:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.ai\1.8.37\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AI.Text.Projection.dll">
+      <PackagePath>Microsoft.Windows.AI.Text.Projection.dll</PackagePath>
+      <Modified>2025-09-08T00:27:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Security.Authentication.OAuth.Projection.dll">
+      <PackagePath>Microsoft.Security.Authentication.OAuth.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.Background.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Background.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.BadgeNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.BadgeNotifications.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Foundation.Projection.dll">
+      <PackagePath>Microsoft.Windows.Foundation.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Management.Deployment.Projection.dll">
+      <PackagePath>Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Media.Capture.Projection.dll">
+      <PackagePath>Microsoft.Windows.Media.Capture.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Storage.Pickers.Projection.dll">
+      <PackagePath>Microsoft.Windows.Storage.Pickers.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Storage.Projection.dll">
+      <PackagePath>Microsoft.Windows.Storage.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2025-09-06T23:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\lib\net6.0-windows10.0.17763.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2025-09-06T23:02:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.interactiveexperiences\1.8.250906004\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2025-09-06T11:38:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.widgets\1.8.250904007\lib\net6.0-windows10.0.17763.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2025-09-05T02:13:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.winui\1.8.250906003\lib\net6.0-windows10.0.17763.0\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2025-09-07T02:47:34.000</Modified>
+>>>>>>> a6a6ea504803752c24bf320b746df575150fc974
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\system.codedom\10.0.12\lib\net8.0\System.CodeDom.dll">
       <PackagePath>System.CodeDom.dll</PackagePath>
       <Modified>2026-08-22T15:17:18.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
+=======
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\system.diagnostics.eventlog\10.0.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll">
+      <PackagePath>System.Diagnostics.EventLog.Messages.dll</PackagePath>
+      <Modified>2025-10-24T00:12:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\system.diagnostics.eventlog\10.0.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll">
+      <PackagePath>System.Diagnostics.EventLog.dll</PackagePath>
+      <Modified>2025-10-24T00:15:24.000</Modified>
+    </AppxPackagedFile>
+>>>>>>> a6a6ea504803752c24bf320b746df575150fc974
     <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\system.management\10.0.12\runtimes\win\lib\net8.0\System.Management.dll">
       <PackagePath>System.Management.dll</PackagePath>
       <Modified>2026-08-22T15:18:56.000</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\system.numerics.tensors\9.0.0\lib\net8.0\System.Numerics.Tensors.dll">
       <PackagePath>System.Numerics.Tensors.dll</PackagePath>
       <Modified>2024-10-29T02:40:16.000</Modified>
@@ -1056,6 +1217,100 @@
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.2, MinVersion = 2.5.1.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\2.5.1\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.2.msix</AppxLocation>
+=======
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.web.webview2\1.0.3179.45\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>WebView2Loader.dll</PackagePath>
+      <Modified>2025-03-30T09:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\runtimes\win-x64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
+      <Modified>2025-09-06T23:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.foundation\1.8.250906002\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2025-09-06T23:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.web.webview2\1.0.3179.45\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
+      <Modified>2025-03-30T09:04:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.web.webview2\1.0.3179.45\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
+      <PackagePath>Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
+      <Modified>2025-03-30T09:04:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\NewModernEventViewer.deps.json">
+      <PackagePath>NewModernEventViewer.deps.json</PackagePath>
+      <Modified>2026-09-20T13:01:21.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2026-09-16T14:23:11.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2026-09-16T14:23:11.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2026-09-16T14:23:11.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2026-09-16T14:23:11.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2026-09-16T14:23:11.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2026-09-16T14:23:11.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2026-09-16T14:23:11.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\.nuget\packages\microsoft.web.webview2\1.0.3179.45\build\..\lib\Microsoft.Web.WebView2.Core.winmd">
+      <PackagePath>Microsoft.Web.WebView2.Core.winmd</PackagePath>
+      <Modified>2025-03-30T09:03:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egork\source\repos\NewModernEventViewer\NewModernEventViewer\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2026-09-20T13:01:22.317</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.8.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.8</Name>
+      <Version>8000.616.304.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.8, MinVersion = 8000.616.304.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\egork\.nuget\packages\microsoft.windowsappsdk.runtime\1.8.250907003\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.8.msix</AppxLocation>
+>>>>>>> a6a6ea504803752c24bf320b746df575150fc974
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
   </ItemGroup>
